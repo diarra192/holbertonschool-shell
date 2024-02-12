@@ -1,2 +1,4 @@
-#!/bin/bash 
-cd "$(eval echo ~)"
+#!/bin/bash
+home=$(getent passwd "$USER" | cut -d: -f6)
+cd "$home"
+
