@@ -1,1 +1,2 @@
-ddd
+#!/bin/bash
+DDDDD
